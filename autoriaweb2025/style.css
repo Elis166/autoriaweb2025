@@ -1,0 +1,26 @@
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-red{
+    background-color: #C01616;
+    height: 125px;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+
+}
+
+
+.linha-vertical {
+  float: left; /* Ou use Flexbox */
+  width: 1px; /* Largura da linha */
+  height: 100%; /* Altura para a linha ocupar toda a altura do contêiner */
+  background-color: #ccc; /* Cor da linha */
+  margin: 0 10px; /* Espaço ao redor da linha */
+}
